@@ -34,12 +34,12 @@ I try to learn things all on my own, therefore I miserably fail trying but occas
 
 I'm really interested in compilers, virtual machines and game engines. Hoping to make one of these one day! But currently all I create is utter garbage, worth it though.
 
-#### Public Projects:
+### Public Projects:
 
 - The first "real" project I made: [SlimScript](https://github.com/The2ndSlimShady/SlimScript.git)
 - A little [library](https://github.com/The2ndSlimShady/CLIParser.git) for handling command line input, for creating command line tools
 
-#### In Progress Projects to be Made Public in the Future:
+### In Progress Projects to be Made Public Sometime in the Future:
 - CSLB (Common Scripting Language Backend): 
 	- An LLVM like backend for scripting languages, because why not? (won't be as heavy tho)
 - JASM (Just an Assembly): 
