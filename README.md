@@ -50,5 +50,5 @@ I'm really interested in compilers, virtual machines and game engines. Hoping to
 ## Footnotes
 <p align="center">I love Gwent btw</p>
 <p align="center">
-	<img src="https://fextralife.com/wp-content/uploads/2016/06/gwentfavicon-310.png"/>
+	<img src="https://images.weserv.nl/?url=cdn.jim-nielsen.com/ios/512/gwent-the-witcher-card-game-2019-12-11.png?v=4?v=4&h=70&w=70"/>
 </p>
