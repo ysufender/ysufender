@@ -47,7 +47,7 @@ I'm really interested in compilers, virtual machines and game engines. Hoping to
 - CSR (Common Script Runtime): 
 	- Runtime for JASM byte-code
 
-## Footnotes
+<br/> <br/><br/>
 <p align="center">I love Gwent btw</p>
 <p align="center">
 	<img src="https://images.weserv.nl/?url=cdn.jim-nielsen.com/ios/512/gwent-the-witcher-card-game-2019-12-11.png?v=4?v=4&h=70&w=70"/>
