@@ -45,6 +45,10 @@ I'm really interested in compilers, virtual machines and game engines. Hoping to
 - CSR (Common Script Runtime): 
 	- Runtime for JASM byte-code
 
+## Dev Updates
+
+[See updates.md](https://github.com/The2ndSlimShady/The2ndSlimShady/blob/master/update.md)
+
 ## Certifications
 <p align="center">
 	<img src="https://github.com/The2ndSlimShady/The2ndSlimShady/blob/master/HustlerCertificate.png?raw=true"
