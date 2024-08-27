@@ -15,32 +15,22 @@ func update begin
         error "Seems like the file doesn't exists. Check the name." updateFile
     end
 
-    define newMainContent as ["## Last Update", ""]
+    define newMainContent as ["## Last Update`n"]
     define updateContents as do file.readAllLines updateFile
 
     foreach line in updateContents begin
         append line to newMainContent
     end
 
-    append "" to newMainContent
-    append "## History" to newMainContent
-    append "" to newMainContent 
+    append "`n## History`n" to newMainContent
 
     -- New History Entry
-    define newHistEn as "- [" 
-    append header to newHistEn
-    append "]" to newHistEn
-    append "(" to newHistEn
-    append "https://github.com/The2ndSlimShady/The2ndSlimShady/blob/master/" to newHistEn
-    append updateFile to newHistEn
-    append ")" to newHistEn
-    append " - [" to newHistEn
+    define tmpArr as [ "- [", header, "](https://github.com/The2ndSlimShady/The2ndSlimShady/blob/master/", updateFile, ") - [" ]
     define datetime_t as {System::DateTime}
     define datetime as datetime_t:Now
-    define dateStr as variable->ClrToVar datetime->ToString "dd/MM/yyyy"
-    append dateStr to newHistEn
-    append "]" to newHistEn
-    append newHistEn to newMainContent
+    append variable->ClrToVar datetime->ToString "dd/MM/yyyy" to tmpArr 
+    append "]" to tmpArr 
+    append do string.concat tmpArr to newMainContent
 
     define oldUpdatesFile as do file.openOrCreate "updates.md" fileAccess.read false
     define oldReader as do file.createReader oldUpdatesFile
@@ -56,7 +46,7 @@ func update begin
 
     define oldHistory as do file.readLine oldReader
 
-    if = oldHistory "" then
+    if = oldHistory string.empty then
         set oldHistory to do file.readLine oldReader
     end
 
@@ -77,21 +67,24 @@ func update begin
 
     file_t->Delete "updates.md"
     do file.rename "tmpMain.md" "updates.md"
+
+    write "[Update Script] Successfully updated updates.md"
 end
 
 func list begin
-    write "All Updates:"
-    define allUpdates as do directory.getFiles "updates/"
-    foreach update in allUpdates begin
+    write "All Entries:"
+    define allEntries as do directory.getFiles "updates/"
+    foreach entry in allEntries begin
         set update to do string.replace update "updates/" ""
         set update to do string.replace update "_" " "
         set update to do string.replace update ".md" ""
-        write "`t" update
+        write "`t" entry 
     end
 end
 
 func help begin
     write "Usage:"
+    write "`tupdate help: print this message"
     write "`tupdate list: lists all updates under `updates` directory"
     write "`tupdate <name>: updates with given update"
     write "`n`t(That's a lot of updates)"
@@ -108,7 +101,7 @@ if = "help" cmd then
 elif = "list" cmd then
     do list
 elif > os.argc 1 then
-    error "Just the update name is enough" "Honestly"
+    error "Just the update name is enough. No need for more" "Honestly"
 else
     do update
 end

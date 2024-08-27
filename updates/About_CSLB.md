@@ -29,6 +29,7 @@ everything before ".prep" is discarded
 	print_call: rom 0x00000084 ; #the function id for c++ callback#
 	
 	main:
+        mov &sp &ecx #ecx is now the start address of hello string#
 		raw hello_string 11 #push 11 bytes from given symbol to stack#
 		mov print_call %ebx
 		sys #for c++ callback#

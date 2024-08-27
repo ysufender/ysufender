@@ -17,7 +17,7 @@ update it using the script.
 I made the script in my own scripting language because why not? Plus it's a proof
 that even though the language is ugly as hell, it can still get some job done.
 
-`SlimScript update.sscipt`           -> Prints help  
-`SlimScript update.sscipt %p help`   -> Prints help  
-`SlimScript update.sscipt %p list`   -> Lists all available updates under `updates` directory  
-`SlimScript update.sscipt %p <name>` -> Applies the given update  
+`SlimScript update.sscript`           -> Prints help  
+`SlimScript update.sscript %p help`   -> Prints help  
+`SlimScript update.sscript %p list`   -> Lists all available updates under `updates` directory  
+`SlimScript update.sscript %p <name>` -> Applies the given update  
