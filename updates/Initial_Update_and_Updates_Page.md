@@ -3,7 +3,7 @@
 I decided to make something like a devlog or a mini blog-ish. 
 And I'm too lazy to do it properly so I made the 
 [`update_update.sscript`](https://github.com/The2ndSlimShady/The2ndSlimShady/blob/master/update_update.sscript) 
-script to update the [`update.md`](https://github.com/The2ndSlimShady/The2ndSlimShady/blob/master/update.md) 
+script to update the [`updates.md`](https://github.com/The2ndSlimShady/The2ndSlimShady/blob/master/updates.md) 
 accordingly with the markdown file I specify from command line residing at 
 [`updates`](https://github.com/The2ndSlimShady/The2ndSlimShady/blob/master/updates) 
 directory. The script sets the `Last Update` and updates the `History` list. 

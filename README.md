@@ -47,7 +47,7 @@ I'm really interested in compilers, virtual machines and game engines. Hoping to
 
 ## Dev Updates
 
-[See updates.md](https://github.com/The2ndSlimShady/The2ndSlimShady/blob/master/update.md)
+[See updates.md](https://github.com/The2ndSlimShady/The2ndSlimShady/blob/master/updates.md)
 
 ## Certifications
 <p align="center">
