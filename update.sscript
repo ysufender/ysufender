@@ -34,6 +34,12 @@ func update begin
     append "https://github.com/The2ndSlimShady/The2ndSlimShady/blob/master/" to newHistEn
     append updateFile to newHistEn
     append ")" to newHistEn
+    append " - [" to newHistEn
+    define datetime_t as {System::DateTime}
+    define datetime as datetime_t:Now
+    define dateStr as variable->ClrToVar datetime->ToString "dd/MM/yyyy"
+    append dateStr to newHistEn
+    append "]" to newHistEn
     append newHistEn to newMainContent
 
     define oldUpdatesFile as do file.openOrCreate "updates.md" fileAccess.read false
