@@ -4,7 +4,7 @@
   alt="[Profile Picture]"
  />
  <br/>
- <img src="https://img.shields.io/badge/Certified-hustler-yellow">
+ <img src="https://img.shields.io/badge/Certified-hardworker-yellow">
  <br/>
 	<img 
 		src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" 
@@ -51,7 +51,7 @@ I'm really interested in compilers, virtual machines and game engines. Hoping to
 
 ## Certifications
 <p align="center">
-	<img src="https://github.com/The2ndSlimShady/The2ndSlimShady/blob/master/HustlerCertificate.png?raw=true"
+	<img src="https://github.com/The2ndSlimShady/The2ndSlimShady/blob/master/HardworkerCertificate.png?raw=true"
 	width=500
 	/>
 </p>
