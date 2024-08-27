@@ -1,5 +1,3 @@
-## Last Update
-
 ### About CSLB
 
 #### Why?
@@ -16,17 +14,17 @@ I'm currently working on the IL, an assembler and a linker for the IL (JASM). Th
 
 JASM is the IL for CSLB. It's stack based and fairly simple. Here's the concept design I made for it:
 ```jasm
-everything before .prep is discarded
+everything before ".prep" is discarded
 
 .prep
 	org main #the entry point#
 	sts 2048 #max stack size#
 	stc 2048 #max heap size#
 
-	imp Some/Library.shd #something like a dll#
+	imp "Some/Library.shd" #something like a dll#
 .body
-	#stores Hello World! in ROM, in assemble time. a constant.#
-	hello_string: rom Hello World 0x21 ; #series is terminated with ; #
+	#stores "Hello World!" in ROM, in assemble time. a constant.#
+	hello_string: rom "Hello World" 0x21 ; #series is terminated with ; #
 	
 	print_call: rom 0x00000084 ; #the function id for c++ callback#
 	
@@ -42,10 +40,3 @@ everything after .end is discarded
 #### Isn't it a bit too hard to do it all by yourself, with you having no experience and all?
 
 Yeah. It is. Isn't that the neat part? I'm struggling while trying so I constantly learn new things!
-
-## History
-
-- [About CSLB](https://github.com/The2ndSlimShady/The2ndSlimShady/blob/master/updates/About_CSLB.md) - [28.08.2024]
-- [Now With the Dates](https://github.com/The2ndSlimShady/The2ndSlimShady/blob/master/updates/Now_With_the_Dates.md) - [28.08.2024]
-- [Oops](https://github.com/The2ndSlimShady/The2ndSlimShady/blob/master/updates/Oops.md)
-- [Initial Update and Updates Page](https://github.com/The2ndSlimShady/The2ndSlimShady/blob/master/updates/Initial_Update_and_Updates_Page.md)
