@@ -3,11 +3,9 @@
   src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/64863810?v=4?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d"
   alt="[Profile Picture]"
  />
-</p>
-<p align="center">
+ <br/>
  <img src="https://img.shields.io/badge/Certified-hustler-yellow">
-</p>
-<p align="center">
+ <br/>
 	<img 
 		src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" 
 		height="50" width="50"
@@ -47,8 +45,17 @@ I'm really interested in compilers, virtual machines and game engines. Hoping to
 - CSR (Common Script Runtime): 
 	- Runtime for JASM byte-code
 
-<br/> <br/><br/>
-<p align="center">I love Gwent btw</p>
+## Certifications
 <p align="center">
+	<img src="https://github.com/The2ndSlimShady/The2ndSlimShady/blob/master/HustlerCertificate.png?raw=true"
+	width=500
+	/>
+</p>
+
+<br/> <br/><br/>
+<p align="center">
+	<text>I love Gwent btw</text>
+	<br/>
+	<br/>
 	<img src="https://images.weserv.nl/?url=cdn.jim-nielsen.com/ios/512/gwent-the-witcher-card-game-2019-12-11.png?v=4?v=4&h=70&w=70"/>
 </p>
