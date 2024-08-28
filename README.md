@@ -1,26 +1,25 @@
-<p align="center">
+<p align=center>
   <img 
-  src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/64863810?v=4?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d"
-  alt="[Profile Picture]"
+  src=https://images.weserv.nl/?url=avatars.githubusercontent.com/u/64863810?v=4?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d
  />
  <br/>
- <img src="https://img.shields.io/badge/Certified-hardworker-yellow">
+ <img src=https://img.shields.io/badge/Certified-hardworker-yellow>
  <br/>
 	<img 
-		src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" 
-		height="50" width="50"
+		src=https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg 
+		height=50 width=50
 	/>
 	<img 
-		src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" 
-		height="50" width="50"
+		src=https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg 
+		height=50 width=50
 	/>
 	<img 
-		src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/lua/lua-original.svg" 
-		height="50" width="50"
+		src=https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/lua/lua-original.svg 
+		height=50 width=50
 	/>
 	<img 
-		src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/neovim/neovim-original.svg" 
-		height="50" width="50"
+		src=https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/neovim/neovim-original.svg 
+		height=50 width=50
 	/>
 </p>
 
@@ -34,7 +33,7 @@ I'm really interested in compilers, virtual machines and game engines. Hoping to
 
 ## Public Projects:
 
-- The first "real" project I made: [SlimScript](https://github.com/The2ndSlimShady/SlimScript.git)
+- The first 'real' project I made: [SlimScript](https://github.com/The2ndSlimShady/SlimScript.git)
 - A little [library](https://github.com/The2ndSlimShady/CLIParser.git) for handling command line input, for creating command line tools
 
 ## In Progress Projects to be Made Public Sometime in the Future:
@@ -47,19 +46,22 @@ I'm really interested in compilers, virtual machines and game engines. Hoping to
 
 ## Dev Updates
 
-[See updates.md](https://github.com/The2ndSlimShady/The2ndSlimShady/blob/master/updates.md)
+Most Recent:  
+- [Most Recent Update Is Now Shown On README](https://github.com/The2ndSlimShady/The2ndSlimShady/blob/master/updates/Most_Recent_Update_Is_Now_Shown_On_README.md) 
+
+[See updates.md](https://github.com/The2ndSlimShady/The2ndSlimShady/blob/master/updates.md) for more
 
 ## Certifications
-<p align="center">
-	<img src="https://github.com/The2ndSlimShady/The2ndSlimShady/blob/master/HardworkerCertificate.png?raw=true"
+<p align=center>
+	<img src=https://github.com/The2ndSlimShady/The2ndSlimShady/blob/master/HardworkerCertificate.png?raw=true
 	width=500
 	/>
 </p>
 
 <br/> <br/><br/>
-<p align="center">
+<p align=center>
 	<text>I love Gwent btw</text>
 	<br/>
 	<br/>
-	<img src="https://images.weserv.nl/?url=cdn.jim-nielsen.com/ios/512/gwent-the-witcher-card-game-2019-12-11.png?v=4?v=4&h=70&w=70"/>
+	<img src=https://images.weserv.nl/?url=cdn.jim-nielsen.com/ios/512/gwent-the-witcher-card-game-2019-12-11.png?v=4?v=4&h=70&w=70/>
 </p>

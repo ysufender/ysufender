@@ -2,8 +2,10 @@
 
 @include io
 @include string
+@include array
 
 func update begin
+    write "[Update Script] Updating updates.md"
     define header as index 0 of os.args
 
     define updateFile as "updates/"
@@ -28,7 +30,8 @@ func update begin
     define tmpArr as [ "- [", header, "](https://github.com/The2ndSlimShady/The2ndSlimShady/blob/master/", updateFile, ") - [" ]
     define datetime_t as {System::DateTime}
     define datetime as datetime_t:Now
-    append variable->ClrToVar datetime->ToString "dd/MM/yyyy" to tmpArr 
+    define datetimeStr as variable->ClrToVar datetime->ToString "dd/MM/yyyy"
+    append datetimeStr to tmpArr 
     append "]" to tmpArr 
     append do string.concat tmpArr to newMainContent
 
@@ -65,21 +68,41 @@ func update begin
     tmpWriter->Close
     oldReader->Close
 
-    file_t->Delete "updates.md"
     do file.rename "tmpMain.md" "updates.md"
 
     write "[Update Script] Successfully updated updates.md"
-end
+    write "[Update Script] Updating README.md"
 
-func list begin
-    write "All Entries:"
-    define allEntries as do directory.getFiles "updates/"
-    foreach entry in allEntries begin
-        set update to do string.replace update "updates/" ""
-        set update to do string.replace update "_" " "
-        set update to do string.replace update ".md" ""
-        write "`t" entry 
+    define newHistEn as variable->ClrToVar do string.concat tmpArr
+    set newHistEn to do string.replace newHistEn datetimeStr ""
+    set newHistEn to do string.replace newHistEn "- []" "" 
+
+    define oldReadme as do file.openOrCreate "README.md" fileAccess.read false
+    define readmeReader as do file.createReader oldReadme
+    define readme as do file.create "tmpReadme.md" fileAccess.write
+    define readmeWriter as do file.createWriter readme
+
+    while true begin
+        define line as do file.readLine readmeReader
+
+        if = line "Most Recent:  " then
+            do file.writeLine readmeWriter "Most Recent:  " true
+            do file.writeLine readmeWriter newHistEn true
+            set line to do file.readLine readmeReader
+            set line to do file.readLine readmeReader
+        elif = line "EOF" then
+            break
+        end
+
+        do file.writeLine readmeWriter line true
     end
+
+    readmeWriter->Close
+    readmeReader->Close
+
+    do file.rename "tmpReadme.md" "README.md"
+
+    write "[Update Script] Successfully updated README.md"
 end
 
 func help begin
@@ -88,6 +111,44 @@ func help begin
     write "`tupdate list: lists all updates under `updates` directory"
     write "`tupdate <name>: updates with given update"
     write "`n`t(That's a lot of updates)"
+end
+
+func list begin
+    write "All Entries:"
+    define allEntries as do directory.getFiles "updates/"
+    foreach entry in allEntries begin
+        set entry to do string.replace entry "updates/" ""
+        set entry to do string.replace entry "_" " "
+        set entry to do string.replace entry ".md" ""
+        write "`t" entry 
+    end
+end
+
+func recent begin
+    define fileinfo_t as {System::IO::FileInfo}
+    define datetime_t as {System::DateTime}
+    
+    define dir as do directory.openOrCreate "updates/"
+    define files as dir->GetFiles
+
+    define recentWrite as datetime_t:MinValue
+    define mostRecent as null
+
+    foreach info in files begin
+        define wTime as info:LastWriteTime
+        define isGreat as variable->ClrToVar wTime->CompareTo recentWrite
+
+        if <= 0 isGreat then
+            set recentWrite to wTime
+            set mostRecent to info
+        end
+    end
+
+    define str as variable->ClrToVar mostRecent:Name
+    set str to do string.replace str "updates/" ""
+    set str to do string.replace str "_" " "
+    set str to do string.replace str ".md" ""
+    write "Most Recent Update:`n`t" str  
 end
 
 -- Handle CLI
@@ -100,6 +161,8 @@ if = "help" cmd then
     do help
 elif = "list" cmd then
     do list
+elif = "recent" cmd then
+    do recent
 elif > os.argc 1 then
     error "Just the update name is enough. No need for more" "Honestly"
 else
