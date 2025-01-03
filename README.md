@@ -47,7 +47,7 @@ I'm really interested in compilers, virtual machines and game engines. Hoping to
 ## Dev Updates
 
 Most Recent:  
-- [About JASM and CSR](https://github.com/The2ndSlimShady/The2ndSlimShady/blob/master/updates/About_JASM_and_CSR.md) 
+- [Current State of CSR](https://github.com/The2ndSlimShady/The2ndSlimShady/blob/master/updates/Current_State_of_CSR.md) 
 
 [See updates.md](https://github.com/The2ndSlimShady/The2ndSlimShady/blob/master/updates.md) for more
 
