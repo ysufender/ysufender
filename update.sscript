@@ -109,8 +109,10 @@ func help begin
     write "Usage:"
     write "`tupdate help: print this message"
     write "`tupdate list: lists all updates under `updates` directory"
-    write "`tupdate <name>: updates with given update"
+    write "`tupdate recent: prints the most recent update"
+    write "`tupdate <name>: updates with given update, name should be in quotes (`q) and must be the same as 'update recent' prints"
     write "`n`t(That's a lot of updates)"
+    write "`n`t(Note that 'update' here is 'update.sscript' itself, not an argument)"
 end
 
 func list begin
