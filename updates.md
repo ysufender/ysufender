@@ -1,46 +1,65 @@
 ## Last Update
 
-### CSR: Communication Between Processes
+### CSR: Update
 
-I've never explained it and won't now too, but CSR is designed to run multiple
-processes at the same time, whether it be an illusion or a literal multithreaded
-design. In any case those processes somehow need to communicate with each other.
-I plan to implement (actually I am implementing it currently) a messaging system 
-to allow the processes to communicate with each other. 
+As for today, CSR and JASM can be considered ready for usage. Sure they can't do IO
+operations because C++ callback system is not ready yet but if you say I can just 
+read the ROM, RAM and registers manually then you can technically use it.
 
-CSR is a multi-layered runtime. It's structure is like this:
+Basic arithmetic operations, conditionals, callstacks, parameter and return values are
+supported so it can do pretty much everything on paper. Oh, heap allocations are also
+present, though I forgot to add a deallocate instruciton, will do that soon.
+
+Below, is a program that finds factorials, the stack is limited to 84 because I didn't
+want to see pages of stack values printed on my terminal. So this code can just calculate
+factorials of numbers up to 5 (included). But you can just increase the stack size so
+no problem at all?
 
 ```
-VM  
-|_ Assembly  
-|_ Assemlby  
-|   .  
-|   .  
-|   .  
-|   .  
-|_ Assembly  
-    |_ Board  
-    |   .  
-    |   .  
-    |   .  
-    |   .  
-    |_ Board  
-        |_ Process  
-        |   .  
-        |   .  
-        |   .  
-        |   .  
+.prep
+    org main
+    sts 84
+    sth 0
+.body
+    fact:
+        stc %i 2
+        cmp %i %geq
+        pop %i
+        cnd rec 
+            pop %i
+            stc %i 1
+            mov 4 &bl
+            ret
+        rec:
+            dup %i 
+            dcr %i 1
+            mov 4 &bl
+            cal fact
+            swp %i
+            pop %i
+            mul %i
+            mov 4 &bl
+            ret
+             
+    main:
+        stc %i 5
+        mov 4 &bl
+        cal fact
+        swp %i
+        pop %i
+        mov &eax
+.end
 ```
 
-Messages can be sent to either the component right above you or the component right
-below you. If you want to send a message to any other component, you have to send it
-to one of these first, and request a redirect. 
+It's recursive because I wanted to test the callstack creation and destruction, and
+parameter/return value passing.
 
-The basics of the messaging system is this. I'll explain it in more detail in CSR
-documentation.
+Next, I'll implement the C++ callback system, and improved communication between
+processes for asynchronous execution.
 
 ## History
 
+- [CSR Update](https://github.com/The2ndSlimShady/The2ndSlimShady/blob/master/updates/CSR_Update.md) - [25/05/2025]
 - [CSR Communication Between Processes](https://github.com/The2ndSlimShady/The2ndSlimShady/blob/master/updates/CSR_Communication_Between_Processes.md) - [25/01/2025]
 - [JASM Fixes and CSR](https://github.com/The2ndSlimShady/The2ndSlimShady/blob/master/updates/JASM_Fixes_and_CSR.md) - [23/01/2025]
 - [Current State of CSR](https://github.com/The2ndSlimShady/The2ndSlimShady/blob/master/updates/Current_State_of_CSR.md) - [04.01.2025]

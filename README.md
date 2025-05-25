@@ -47,7 +47,7 @@ I'm really interested in compilers, virtual machines and game engines. Hoping to
 ## Dev Updates
 
 Most Recent:  
-- [CSR Communication Between Processes](https://github.com/The2ndSlimShady/The2ndSlimShady/blob/master/updates/CSR_Communication_Between_Processes.md) 
+- [CSR Update](https://github.com/The2ndSlimShady/The2ndSlimShady/blob/master/updates/CSR_Update.md) 
 
 [See updates.md](https://github.com/The2ndSlimShady/The2ndSlimShady/blob/master/updates.md) for more
 
