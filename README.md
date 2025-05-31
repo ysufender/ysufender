@@ -25,31 +25,37 @@
 
 # Greetings!
 
-I'm The2ndSlimShady, a guy stuck with his old nickname from middle school because he's too lazy to find a new one!
+I'm Yusuf, a second-year to be Computer Engineering student, interested interested in graphics, game engines, compiler design and overall low-level topics. 
+You can see the nickname "The2ndSlimShady" in some of my repositories, those are my old ones, back when I used that nickname instead of my own. I found the name
+in middle school and used it ever since.
 
 I try to learn things all on my own, therefore I miserably fail trying but occasionally I manage to create something good and learn a little from it. The cycle continues!
 
-I'm really interested in compilers, virtual machines and game engines. Hoping to make one of these one day! But currently all I create is utter garbage, worth it though.
+I'm really interested in compilers, virtual machines and game engines. Hoping to make one of these one day! But currently all I create is utter garbage, though it's worth it.
 
 ## Public Projects:
 
-- The first 'real' project I made: [SlimScript](https://github.com/The2ndSlimShady/SlimScript.git)
-- A little [library](https://github.com/The2ndSlimShady/CLIParser.git) for handling command line input, for creating command line tools
+- The first 'real' project I made, from my early highschool years: [SlimScript](https://github.com/The2ndSlimShady/SlimScript.git).
+- A little [library](https://github.com/The2ndSlimShady/CLIParser.git) for handling command line input, for creating command line tools.
 
 ## In Progress Projects to be Made Public Sometime in the Future:
 - CSLB (Common Scripting Language Backend): 
-	- An LLVM like backend for scripting languages, because why not? (won't be as heavy tho)
+	- An LLVM like backend for scripting languages, because why not?
 - JASM (Just an Assembly): 
-	- A custom assembly language that mainly assembles into byte-code. (with the plans of native compilation using LLVM)
+	- A custom assembly language that mainly assembles into byte-code. With the plans of native compilation using LLVM (maybe in far future).
 - CSR (Common Script Runtime): 
 	- Runtime for JASM byte-code
 
 ## Dev Updates
 
+I occasionally write update readmes about what I'm currently doing. I use a script, written in [SlimScript](https://github.com/The2ndSlimShady/SlimScript.git), to
+semi-automate the process. It complicates things a little but I wanted to use the language for something useful, therefore proving that it is, although not so practical,
+usable.
+
 Most Recent:  
 - [CSR Update](https://github.com/The2ndSlimShady/The2ndSlimShady/blob/master/updates/CSR_Update.md) 
 
-[See updates.md](https://github.com/The2ndSlimShady/The2ndSlimShady/blob/master/updates.md) for more
+[See updates.md for all](https://github.com/The2ndSlimShady/The2ndSlimShady/blob/master/updates.md) for more
 
 ## Certifications
 <p align=center>
