@@ -27,7 +27,7 @@ func update begin
     append "`n## History`n" to newMainContent
 
     -- New History Entry
-    define tmpArr as [ "- [", header, "](https://github.com/The2ndSlimShady/The2ndSlimShady/blob/master/", updateFile, ") - [" ]
+    define tmpArr as [ "- [", header, "](https://github.com/ysufender/ysufender/blob/master/", updateFile, ") - [" ]
     define datetime_t as {System::DateTime}
     define datetime as datetime_t:Now
     define datetimeStr as variable->ClrToVar datetime->ToString "dd/MM/yyyy"

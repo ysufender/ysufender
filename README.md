@@ -35,8 +35,8 @@ I'm really interested in compilers, virtual machines and game engines. Hoping to
 
 ## Public Projects:
 
-- The first 'real' project I made, from my early highschool years: [SlimScript](https://github.com/The2ndSlimShady/SlimScript.git).
-- A little [library](https://github.com/The2ndSlimShady/CLIParser.git) for handling command line input, for creating command line tools.
+- The first 'real' project I made, from my early highschool years: [SlimScript](https://github.com/ysufender/SlimScript.git).
+- A little [library](https://github.com/ysufender/CLIParser.git) for handling command line input, for creating command line tools.
 
 ## In Progress Projects to be Made Public Sometime in the Future:
 - CSLB (Common Scripting Language Backend): 
@@ -48,18 +48,18 @@ I'm really interested in compilers, virtual machines and game engines. Hoping to
 
 ## Dev Updates
 
-I occasionally write update readmes about what I'm currently doing. I use a script, written in [SlimScript](https://github.com/The2ndSlimShady/SlimScript.git), to
+I occasionally write update readmes about what I'm currently doing. I use a script, written in [SlimScript](https://github.com/ysufender/SlimScript.git), to
 semi-automate the process. It complicates things a little but I wanted to use the language for something useful, therefore proving that it is, although not so practical,
 usable.
 
 Most Recent:  
-- [CSR Update](https://github.com/The2ndSlimShady/The2ndSlimShady/blob/master/updates/CSR_Update.md) 
+- [CSR Update](https://github.com/ysufender/ysufender/blob/master/updates/CSR_Update.md) 
 
-[See updates.md for all](https://github.com/The2ndSlimShady/The2ndSlimShady/blob/master/updates.md) for more
+[See updates.md for all](https://github.com/ysufender/ysufender/blob/master/updates.md) for more
 
 ## Certifications
 <p align=center>
-	<img src=https://github.com/The2ndSlimShady/The2ndSlimShady/blob/master/HardworkerCertificate.png?raw=true
+	<img src=https://github.com/ysufender/ysufender/blob/master/HardworkerCertificate.png?raw=true
 	width=500
 	/>
 </p>

@@ -59,12 +59,12 @@ processes for asynchronous execution.
 
 ## History
 
-- [CSR Update](https://github.com/The2ndSlimShady/The2ndSlimShady/blob/master/updates/CSR_Update.md) - [25/05/2025]
-- [CSR Communication Between Processes](https://github.com/The2ndSlimShady/The2ndSlimShady/blob/master/updates/CSR_Communication_Between_Processes.md) - [25/01/2025]
-- [JASM Fixes and CSR](https://github.com/The2ndSlimShady/The2ndSlimShady/blob/master/updates/JASM_Fixes_and_CSR.md) - [23/01/2025]
-- [Current State of CSR](https://github.com/The2ndSlimShady/The2ndSlimShady/blob/master/updates/Current_State_of_CSR.md) - [04.01.2025]
-- [About JASM and CSR](https://github.com/The2ndSlimShady/The2ndSlimShady/blob/master/updates/About_JASM_and_CSR.md) - [10.12.2024]
-- [Most Recent Update Is Now Shown On README](https://github.com/The2ndSlimShady/The2ndSlimShady/blob/master/updates/Most_Recent_Update_Is_Now_Shown_On_README.md) - [28.08.2024]
-- [About CSLB](https://github.com/The2ndSlimShady/The2ndSlimShady/blob/master/updates/About_CSLB.md) - [28.08.2024]
-- [Now With the Dates](https://github.com/The2ndSlimShady/The2ndSlimShady/blob/master/updates/Now_With_the_Dates.md) - [28.08.2024]
-- [Initial Update and Updates Page](https://github.com/The2ndSlimShady/The2ndSlimShady/blob/master/updates/Initial_Update_and_Updates_Page.md)
+- [CSR Update](https://github.com/ysufender/ysufender/blob/master/updates/CSR_Update.md) - [25/05/2025]
+- [CSR Communication Between Processes](https://github.com/ysufender/ysufender/blob/master/updates/CSR_Communication_Between_Processes.md) - [25/01/2025]
+- [JASM Fixes and CSR](https://github.com/ysufender/ysufender/blob/master/updates/JASM_Fixes_and_CSR.md) - [23/01/2025]
+- [Current State of CSR](https://github.com/ysufender/ysufender/blob/master/updates/Current_State_of_CSR.md) - [04.01.2025]
+- [About JASM and CSR](https://github.com/ysufender/ysufender/blob/master/updates/About_JASM_and_CSR.md) - [10.12.2024]
+- [Most Recent Update Is Now Shown On README](https://github.com/ysufender/ysufender/blob/master/updates/Most_Recent_Update_Is_Now_Shown_On_README.md) - [28.08.2024]
+- [About CSLB](https://github.com/ysufender/ysufender/blob/master/updates/About_CSLB.md) - [28.08.2024]
+- [Now With the Dates](https://github.com/ysufender/ysufender/blob/master/updates/Now_With_the_Dates.md) - [28.08.2024]
+- [Initial Update and Updates Page](https://github.com/ysufender/ysufender/blob/master/updates/Initial_Update_and_Updates_Page.md)

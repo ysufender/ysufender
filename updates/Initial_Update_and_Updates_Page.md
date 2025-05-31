@@ -5,7 +5,7 @@ And I'm too lazy to do it properly so I made the
 [`update.sscript`](../update.sscript) 
 script to update the [`updates.md`](../updates.md) 
 accordingly with the markdown file I specify from command line residing at 
-[`updates`](https://github.com/The2ndSlimShady/The2ndSlimShady/blob/master/updates) 
+[`updates`](https://github.com/ysufender/ysufender/blob/master/updates) 
 directory. The script sets the `Last Update` and updates the `History` list. 
 And that's it. Yeah.
 
