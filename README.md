@@ -14,6 +14,10 @@
 		height=50 width=50
 	/>
 	<img 
+		src=https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/haskell/haskell-original.svg 
+		height=50 width=50
+	/>
+	<img 
 		src=https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/lua/lua-original.svg 
 		height=50 width=50
 	/>
