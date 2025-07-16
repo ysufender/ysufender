@@ -41,7 +41,7 @@ I'm really interested in compilers, virtual machines and game engines. Hoping to
 
 - The first 'real' project I made, from my early highschool years: [SlimScript](https://github.com/ysufender/SlimScript.git).
 - A little [library](https://github.com/ysufender/CLIParser.git) for handling command line input, for creating command line tools.
-- [JASM](https://github.com/ysufender/JASM.git), A custom assembly language that mainly assembles into byte-code. With the plans 
+- [JASM](https://github.com/ysufender/JASM.git), a custom assembly language that mainly assembles into byte-code. With the plans 
 of native compilation using LLVM (maybe in far future).
 
 ## In Progress Projects to be Made Public Sometime in the Future:
@@ -59,7 +59,7 @@ usable.
 Most Recent:  
 - [JASM 0.1.0 Is Out](https://github.com/ysufender/ysufender/blob/master/updates/JASM_0_1_0_Is_Out.md) 
 
-[See updates.md for all](https://github.com/ysufender/ysufender/blob/master/updates.md) for more
+[See updates.md](https://github.com/ysufender/ysufender/blob/master/updates.md) for more
 
 ## Certifications
 <p align=center>
