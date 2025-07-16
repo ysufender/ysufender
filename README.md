@@ -41,12 +41,12 @@ I'm really interested in compilers, virtual machines and game engines. Hoping to
 
 - The first 'real' project I made, from my early highschool years: [SlimScript](https://github.com/ysufender/SlimScript.git).
 - A little [library](https://github.com/ysufender/CLIParser.git) for handling command line input, for creating command line tools.
+- [JASM](https://github.com/ysufender/JASM.git), A custom assembly language that mainly assembles into byte-code. With the plans 
+of native compilation using LLVM (maybe in far future).
 
 ## In Progress Projects to be Made Public Sometime in the Future:
 - CSLB (Common Scripting Language Backend): 
 	- An LLVM like backend for scripting languages, because why not?
-- JASM (Just an Assembly): 
-	- A custom assembly language that mainly assembles into byte-code. With the plans of native compilation using LLVM (maybe in far future).
 - CSR (Common Script Runtime): 
 	- Runtime for JASM byte-code
 
