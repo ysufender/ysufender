@@ -1,64 +1,19 @@
 ## Last Update
 
-### CSR: Update
+### JASM 0.1.0 is Out
 
-As for today, CSR and JASM can be considered ready for usage. Sure they can't do IO
-operations because C++ callback system is not ready yet but if you say I can just 
-read the ROM, RAM and registers manually then you can technically use it.
-
-Basic arithmetic operations, conditionals, callstacks, parameter and return values are
-supported so it can do pretty much everything on paper. Oh, heap allocations are also
-present, though I forgot to add a deallocate instruciton, will do that soon.
-
-Below, is a program that finds factorials, the stack is limited to 84 because I didn't
-want to see pages of stack values printed on my terminal. So this code can just calculate
-factorials of numbers up to 5 (included). But you can just increase the stack size so
-no problem at all?
-
-```
-.prep
-    org main
-    sts 84
-    sth 0
-.body
-    fact:
-        stc %i 2
-        cmp %i %geq
-        pop %i
-        cnd rec 
-            pop %i
-            stc %i 1
-            mov 4 &bl
-            ret
-        rec:
-            dup %i 
-            dcr %i 1
-            mov 4 &bl
-            cal fact
-            swp %i
-            pop %i
-            mul %i
-            mov 4 &bl
-            ret
-             
-    main:
-        stc %i 5
-        mov 4 &bl
-        cal fact
-        swp %i
-        pop %i
-        mov &eax
-.end
-```
-
-It's recursive because I wanted to test the callstack creation and destruction, and
-parameter/return value passing.
-
-Next, I'll implement the C++ callback system, and improved communication between
-processes for asynchronous execution.
+In the last dev update I stated that CSR and JASM can be considered ready for usage.
+However there were missing things like static and dynamic linking for the JASM linker.
+I just updated the repo and added static linking support and made the repo public. That
+means officially JASM 0.1.0 is out! I can't say it's 1.0.0 because it still lacks a couple
+of things. I'll update the repo in the future and release 1.0.0. But I must say that this
+won't be happening any soon because I'll focus on CSR to implement C++ callbacks and
+memory mapping (because I just realized that concurrent processes using interrupts will
+not work unless there is memory mapping).
 
 ## History
 
+- [JASM 0.1.0 Is Out](https://github.com/ysufender/ysufender/blob/master/updates/JASM_0_1_0_Is_Out.md) - [16/07/2025]
 - [CSR Update](https://github.com/ysufender/ysufender/blob/master/updates/CSR_Update.md) - [25/05/2025]
 - [CSR Communication Between Processes](https://github.com/ysufender/ysufender/blob/master/updates/CSR_Communication_Between_Processes.md) - [25/01/2025]
 - [JASM Fixes and CSR](https://github.com/ysufender/ysufender/blob/master/updates/JASM_Fixes_and_CSR.md) - [23/01/2025]

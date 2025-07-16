@@ -30,7 +30,7 @@
 # Greetings!
 
 I'm Yusuf, a second-year to be Computer Engineering student, interested interested in graphics, game engines, compiler design and overall low-level topics. 
-You can see the nickname "The2ndSlimShady" in some of my repositories, those are my old ones, back when I used that nickname instead of my own. I found the name
+You can see the nickname The2ndSlimShady in some of my repositories, those are my old ones, back when I used that nickname instead of my own. I found the name
 in middle school and used it ever since.
 
 I try to learn things all on my own, therefore I miserably fail trying but occasionally I manage to create something good and learn a little from it. The cycle continues!
@@ -57,7 +57,7 @@ semi-automate the process. It complicates things a little but I wanted to use th
 usable.
 
 Most Recent:  
-- [CSR Update](https://github.com/ysufender/ysufender/blob/master/updates/CSR_Update.md) 
+- [JASM 0.1.0 Is Out](https://github.com/ysufender/ysufender/blob/master/updates/JASM_0_1_0_Is_Out.md) 
 
 [See updates.md for all](https://github.com/ysufender/ysufender/blob/master/updates.md) for more
 
