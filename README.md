@@ -43,12 +43,12 @@ I'm really interested in compilers, virtual machines and game engines. Hoping to
 - A little [library](https://github.com/ysufender/CLIParser.git) for handling command line input, for creating command line tools.
 - [JASM](https://github.com/ysufender/JASM.git), a custom assembly language that mainly assembles into byte-code. With the plans 
 of native compilation using LLVM (maybe in far future).
+- [CSR (Common Script Runtime)](https://github.com/ysufender/CSR.git): Runtime for JASM byte-code with native call support.
+- [libstdjasm](https://github.com/ysufender/libstdjasm.git): JASM Standard Library.
 
 ## In Progress Projects to be Made Public Sometime in the Future:
 - CSLB (Common Scripting Language Backend): 
 	- An LLVM like backend for scripting languages, because why not?
-- CSR (Common Script Runtime): 
-	- Runtime for JASM byte-code
 
 ## Dev Updates
 
@@ -57,7 +57,7 @@ semi-automate the process. It complicates things a little but I wanted to use th
 usable.
 
 Most Recent:  
-- [JASM 0.1.0 Is Out](https://github.com/ysufender/ysufender/blob/master/updates/JASM_0_1_0_Is_Out.md) 
+- [CSR and stdlib are out](https://github.com/ysufender/ysufender/blob/master/updates/CSR_and_stdlib_are_out.md) 
 
 [See updates.md](https://github.com/ysufender/ysufender/blob/master/updates.md) for more
 
