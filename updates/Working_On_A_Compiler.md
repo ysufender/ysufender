@@ -1,5 +1,3 @@
-## Last Update
-
 ### Working On A Compiler
 
 #### About CSR
@@ -7,7 +5,7 @@
 So CSR is done. There is a C callback system that you can find in the repo, but it's
 bound to be changed sometime. And it executes pretty well. I'll add some new instructions
 to the JASM and then to CSR. Currently CSR only supports flat mode, that is one execution
-per invokation. So for every .jef file you wan't to execute one instance of CSR
+per invokation. So for every ".jef" file you wan't to execute one instance of CSR
 should be executed. But anyway.
 
 #### About the Compiler
@@ -77,23 +75,8 @@ pub fn String::unpack() -> (u32, i8*) {
 Additionally circular dependencies are alright, you don't have to define functions and types
 before use, you don't have to include explicitly to use something from some other file given
 that compiler detects that file is already included in the include hierarchy, you can extend
-modules by module <the_same_name> at the start of the file, and you don't need to feed the
+modules by "module <the_same_name>" at the start of the file, and you don't need to feed the
 compiler all the files you wish to compile it detects used files from includes and compiles
 them all.
 
 There are probably more features to come, but I can't remember right now.
-
-## History
-
-- [Working On A Compiler](https://github.com/ysufender/ysufender/blob/master/updates/Working_On_A_Compiler.md) - [15/11/2025]
-- [CSR and stdlib are out](https://github.com/ysufender/ysufender/blob/master/updates/CSR_and_stdlib_are_out.md) - [22/07/2025]
-- [JASM 0.1.0 Is Out](https://github.com/ysufender/ysufender/blob/master/updates/JASM_0_1_0_Is_Out.md) - [16/07/2025]
-- [CSR Update](https://github.com/ysufender/ysufender/blob/master/updates/CSR_Update.md) - [25/05/2025]
-- [CSR Communication Between Processes](https://github.com/ysufender/ysufender/blob/master/updates/CSR_Communication_Between_Processes.md) - [25/01/2025]
-- [JASM Fixes and CSR](https://github.com/ysufender/ysufender/blob/master/updates/JASM_Fixes_and_CSR.md) - [23/01/2025]
-- [Current State of CSR](https://github.com/ysufender/ysufender/blob/master/updates/Current_State_of_CSR.md) - [04.01.2025]
-- [About JASM and CSR](https://github.com/ysufender/ysufender/blob/master/updates/About_JASM_and_CSR.md) - [10.12.2024]
-- [Most Recent Update Is Now Shown On README](https://github.com/ysufender/ysufender/blob/master/updates/Most_Recent_Update_Is_Now_Shown_On_README.md) - [28.08.2024]
-- [About CSLB](https://github.com/ysufender/ysufender/blob/master/updates/About_CSLB.md) - [28.08.2024]
-- [Now With the Dates](https://github.com/ysufender/ysufender/blob/master/updates/Now_With_the_Dates.md) - [28.08.2024]
-- [Initial Update and Updates Page](https://github.com/ysufender/ysufender/blob/master/updates/Initial_Update_and_Updates_Page.md)
