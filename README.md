@@ -54,7 +54,7 @@ I'm really interested in compilers, virtual machines and game engines. Hoping to
 - [JASM](https://github.com/ysufender/JASM.git), a custom assembly language that mainly assembles into byte-code. With the plans 
 of native compilation using QBE (maybe in far future).
 - [CSR (Common Script Runtime)](https://github.com/ysufender/CSR.git): Runtime for JASM byte-code with native call support.
-- [libstdjasm](https://github.com/ysufender/libstdjasm.git): JASM Standard Library.
+- [JASL (WIP)](https://github.com/ysufender/JASL.git): A scripting language written in Effekt research language, using JASM IL as a backend.
 
 ## In Progress Projects to be Made Public Sometime in the Future:
 - CSLB (Common Scripting Language Backend): 
