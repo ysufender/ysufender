@@ -1,14 +1,13 @@
-
 <p align=center>
   <img 
-  src=https://images.weserv.nl/?url=avatarshubusercontent.com/u/64863810?v=4?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d
+  src=https://images.weserv.nl/?url=avatars.githubusercontent.com/u/64863810?v=4?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d
  />
  <br/>
  <img src=https://img.shields.io/badge/Certified-hardworker-yellow>
  <br/>
  <a href= https://effekt-lang.org/>
 	<img 
-		src=https://avatarshubusercontent.com/u/60718943?s=200&v=4 
+		src=https://avatars.githubusercontent.com/u/60718943?s=200&v=4 
 		height=50 width=50
 	/>
  </a>
@@ -33,8 +32,8 @@
 	<br/>
 	<a href=https://common-lisp.net/>
 	<img 
-		src=https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwikiwandv2-19431.kxcdn.com%2F_next%2Fimage%3Furl%3Dhttps%3A%252F%252Fupload.wikimedia.org%252Fwikipedia%252Fcommons%252Fthumb%252F4%252F48%252FLisp_logo.svg%252F1500px-Lisp_logo.svg.png%26w%3D1200%26q%3D50&f=1&nofb=1&ipt=6abb7a41457b93476365e37f6dd902c3b147187ae648a4cee9da569b639b5241 
-		height=50 width=50
+		src=https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fw7.pngwing.com%2Fpngs%2F17%2F841%2Fpng-transparent-common-lisp-racket-computer-programming-programming-language-others-miscellaneous-text-trademark.png&f=1&nofb=1&ipt=231a81e076d20c11becdff80386e93920a33eeaf0467aef0c9acd1692363a85d
+		height=50
 	/>
 	</a>
 </p>
