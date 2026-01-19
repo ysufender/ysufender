@@ -1,5 +1,3 @@
-## Last Update
-
 ### ShakeCpeare
 
 A couple of days ago I was wandering around in my old projects and stumbled
@@ -44,7 +42,7 @@ now player is truly damaged player
 ```
 
 I used a macro set that would turn this seemingly prose text into
-a valid SlimScript script. It prints Jack by the way.
+a valid SlimScript script. It prints "Jack" by the way.
 
 But since SlimScript is insanely slow, and the macro system is limited, I thought
 maybe it is possible to do such thing in another language. Then I decided to turn
@@ -58,25 +56,9 @@ You can do fun things like:
 the status main function is an action
 with the body that is this program
 there is this individual that is a man
-known as Jack by some
+known as "Jack" by some
 print that man line at once
 the program should end now
 ```
 
 And it is a completely valid C program. How cool is that?
-
-## History
-
-- [ShakeCpeare](https://github.com/ysufender/ysufender/blob/master/updates/ShakeCpeare.md) - [19/01/2026]
-- [Working On A Compiler](https://github.com/ysufender/ysufender/blob/master/updates/Working_On_A_Compiler.md) - [15/11/2025]
-- [CSR and stdlib are out](https://github.com/ysufender/ysufender/blob/master/updates/CSR_and_stdlib_are_out.md) - [22/07/2025]
-- [JASM 0.1.0 Is Out](https://github.com/ysufender/ysufender/blob/master/updates/JASM_0_1_0_Is_Out.md) - [16/07/2025]
-- [CSR Update](https://github.com/ysufender/ysufender/blob/master/updates/CSR_Update.md) - [25/05/2025]
-- [CSR Communication Between Processes](https://github.com/ysufender/ysufender/blob/master/updates/CSR_Communication_Between_Processes.md) - [25/01/2025]
-- [JASM Fixes and CSR](https://github.com/ysufender/ysufender/blob/master/updates/JASM_Fixes_and_CSR.md) - [23/01/2025]
-- [Current State of CSR](https://github.com/ysufender/ysufender/blob/master/updates/Current_State_of_CSR.md) - [04.01.2025]
-- [About JASM and CSR](https://github.com/ysufender/ysufender/blob/master/updates/About_JASM_and_CSR.md) - [10.12.2024]
-- [Most Recent Update Is Now Shown On README](https://github.com/ysufender/ysufender/blob/master/updates/Most_Recent_Update_Is_Now_Shown_On_README.md) - [28.08.2024]
-- [About CSLB](https://github.com/ysufender/ysufender/blob/master/updates/About_CSLB.md) - [28.08.2024]
-- [Now With the Dates](https://github.com/ysufender/ysufender/blob/master/updates/Now_With_the_Dates.md) - [28.08.2024]
-- [Initial Update and Updates Page](https://github.com/ysufender/ysufender/blob/master/updates/Initial_Update_and_Updates_Page.md)

@@ -1,14 +1,14 @@
 
 <p align=center>
   <img 
-  src=https://images.weserv.nl/?url=avatars.githubusercontent.com/u/64863810?v=4?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d
+  src=https://images.weserv.nl/?url=avatarshubusercontent.com/u/64863810?v=4?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d
  />
  <br/>
  <img src=https://img.shields.io/badge/Certified-hardworker-yellow>
  <br/>
  <a href= https://effekt-lang.org/>
 	<img 
-		src=https://avatars.githubusercontent.com/u/60718943?s=200&v=4 
+		src=https://avatarshubusercontent.com/u/60718943?s=200&v=4 
 		height=50 width=50
 	/>
  </a>
@@ -49,12 +49,15 @@ I'm really interested in compilers, virtual machines and game engines. Hoping to
 
 ## Public Projects:
 
-- The first 'real' project I made, from my early highschool years: [SlimScript](https://github.com/ysufender/SlimScript.git).
-- A little [library](https://github.com/ysufender/CLIParser.git) for handling command line input, for creating command line tools.
-- [JASM](https://github.com/ysufender/JASM.git), a custom assembly language that mainly assembles into byte-code. With the plans 
+- The first 'real' project I made, from my early highschool years: [SlimScript](https://github.com/ysufender/SlimScript).
+- A little [library](https://github.com/ysufender/CLIParser) for handling command line input, for creating command line tools.
+- [JASM](https://github.com/ysufender/JASM), a custom assembly language that mainly assembles into byte-code. With the plans 
 of native compilation using QBE (maybe in far future).
-- [CSR (Common Script Runtime)](https://github.com/ysufender/CSR.git): Runtime for JASM byte-code with native call support.
-- [JASL (WIP)](https://github.com/ysufender/JASL.git): A scripting language written in Effekt research language, using JASM IL as a backend.
+- [CSR](https://github.com/ysufender/CSR): Runtime for JASM byte-code with native call support.
+- [JASL](https://github.com/ysufender/JASL): A frontend for my custom Zig/C-like language JASL, targeting JASM, and therefore CSR.
+its main goal is to be the "C of CSR" and allow me to write the JASM stdlib in a high-level language. Also it is a proof-of-concept,
+proving that (virtually) any kind of language (be it OOP, functional, Garbage Collected, dynamic typed etc) can be built for and ran
+on CSR since their behaviours can be written using plain JASL (such as hand-crafted vtables, custom allocators etc).
 
 ## In Progress Projects to be Made Public Sometime in the Future:
 - CSLB (Common Scripting Language Backend): 
@@ -62,12 +65,12 @@ of native compilation using QBE (maybe in far future).
 
 ## Dev Updates
 
-I occasionally write update readmes about what I'm currently doing. I use a script, written in [SlimScript](https://github.com/ysufender/SlimScript.git), to
+I occasionally write update readmes about what I'm currently doing. I use a script, written in [SlimScript](https://github.com/ysufender/SlimScript), to
 semi-automate the process. It complicates things a little but I wanted to use the language for something useful, therefore proving that it is, although not so practical,
 usable.
 
 Most Recent:  
-- [Working On A Compiler](https://github.com/ysufender/ysufender/blob/master/updates/Working_On_A_Compiler.md) 
+- [ShakeCpeare](https://github.com/ysufender/ysufender/blob/master/updates/ShakeCpeare.md) 
 
 [See updates.md](https://github.com/ysufender/ysufender/blob/master/updates.md) for more
 <br/> <br/><br/>
